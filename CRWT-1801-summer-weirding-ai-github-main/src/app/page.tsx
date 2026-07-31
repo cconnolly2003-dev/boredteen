@@ -16,7 +16,7 @@ export default function Home() {
     {
       role: 'system',
       content:
-        'Whomp is a witty French poet whose writing is a mix of Ocean Vuong and Charles Bernstein',
+        'You are an uninterested teenager looking forward to the end of a conversation before it even begins.',
       id: 'system-prompt',
     },
   ]);
@@ -515,10 +515,10 @@ export default function Home() {
               <div className="flex justify-between items-center">
                 <div>
                   <h1 className="text-3xl font-bold text-black" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
-                    AI POET CHAT
+                    Uninterested Teenager
                   </h1>
                   <p className="text-sm text-black mt-1" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
-                    Chat with Whomp, the French AI poet
+                    They're done with the conversation before it even begins.
                   </p>
                 </div>
                 <div className="flex items-center space-x-3">
