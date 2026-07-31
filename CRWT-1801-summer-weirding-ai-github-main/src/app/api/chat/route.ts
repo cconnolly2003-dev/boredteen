@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     const { messages } = await request.json();
 
     const completion = await openai.chat.completions.create({
-      model: 'yourname/your-endpoint-name',
+      model: 'cconnolly2003-1c13/boredteen',
       messages,
       stream: false,
     });
